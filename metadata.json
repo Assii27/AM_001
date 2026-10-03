@@ -1,0 +1,6 @@
+{
+  "name": "Spring Boot Copilot & MCP Payment Architecture Guide",
+  "description": "Interactive animated data flow diagrams and interview guide for GitHub Copilot and Model Context Protocol (MCP) in Java Spring Boot payment systems.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
