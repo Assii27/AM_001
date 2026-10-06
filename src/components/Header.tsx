@@ -39,8 +39,32 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab }) => {
             </div>
           </div>
 
-          {/* Navigation Tabs */}
-          <nav className="flex items-center gap-1.5 overflow-x-auto pb-1 md:pb-0 scrollbar-none">
+          {/* Author Badge */}
+          <a
+            href="mailto:dev.asifmaner@gmail.com"
+            title="Contact Asif Maner"
+            className="flex items-center gap-2.5 px-3 py-1.5 rounded-xl bg-slate-950/80 hover:bg-slate-800/90 border border-slate-800 hover:border-indigo-500/50 transition-all shadow-sm group shrink-0"
+          >
+            <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-xs font-bold text-white shadow-sm shadow-indigo-500/30">
+              AM
+            </div>
+            <div className="text-left">
+              <div className="text-xs font-bold text-slate-200 group-hover:text-white flex items-center gap-1.5">
+                <span>Asif Maner</span>
+                <span className="text-[10px] font-semibold px-1.5 py-0.2 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+                  Developer
+                </span>
+              </div>
+              <div className="text-[11px] text-indigo-400/90 font-mono">
+                dev.asifmaner@gmail.com
+              </div>
+            </div>
+          </a>
+        </div>
+
+        {/* Navigation Tabs */}
+        <div className="mt-3 pt-2.5 border-t border-slate-800/80 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+          <nav className="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0 scrollbar-none">
             <button
               onClick={() => setActiveTab('diagram')}
               className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-all cursor-pointer whitespace-nowrap ${

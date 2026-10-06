@@ -64,16 +64,23 @@ The normal payment processing, idempotency validation, and duplicate detection r
   return (
     <div className="space-y-8">
       {/* Top Banner */}
-      <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 shadow-xl">
-        <span className="text-xs font-bold tracking-widest text-indigo-400 uppercase bg-indigo-500/10 px-2.5 py-1 rounded-md border border-indigo-500/20">
-          Senior Java 21 / Payment Switch
-        </span>
-        <h2 className="text-2xl font-bold text-white mt-1.5 tracking-tight">
-          Senior Interview Master & Talk Track
-        </h2>
-        <p className="text-sm text-slate-400 mt-1 max-w-3xl">
-          Everything you need to deliver a flawless, high-credibility answer when asked about GitHub Copilot, Model Context Protocol (MCP), and Spring Boot architecture.
-        </p>
+      <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+        <div>
+          <span className="text-xs font-bold tracking-widest text-indigo-400 uppercase bg-indigo-500/10 px-2.5 py-1 rounded-md border border-indigo-500/20">
+            Senior Java 21 / Payment Switch
+          </span>
+          <h2 className="text-2xl font-bold text-white mt-1.5 tracking-tight">
+            Senior Interview Master & Talk Track
+          </h2>
+          <p className="text-sm text-slate-400 mt-1 max-w-3xl">
+            Curated by <strong className="text-white">Asif Maner</strong> (<a href="mailto:dev.asifmaner@gmail.com" className="text-indigo-400 hover:underline">dev.asifmaner@gmail.com</a>) for high-stakes system design and architecture interviews.
+          </p>
+        </div>
+        <div className="px-3.5 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs shrink-0 self-start md:self-center">
+          <span className="text-slate-400 block text-[10px] uppercase font-bold">Developer</span>
+          <span className="font-semibold text-white">Asif Maner</span>
+          <span className="text-indigo-400 text-[11px] block font-mono">dev.asifmaner@gmail.com</span>
+        </div>
       </div>
 
       {/* The Gold-Standard Interview Pitch Card */}

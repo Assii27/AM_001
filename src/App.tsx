@@ -41,13 +41,13 @@ export default function App() {
       {/* Footer */}
       <footer className="border-t border-slate-800 bg-slate-950/80 backdrop-blur py-6 mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
             <Cpu className="w-4 h-4 text-indigo-400" />
             <span className="font-semibold text-slate-300">
               Spring Boot + Spring AI + MCP + GitHub Copilot
             </span>
             <span className="text-slate-600">|</span>
-            <span>Senior Architectural Guide</span>
+            <span>Developed by <strong className="text-white">Asif Maner</strong> (<a href="mailto:dev.asifmaner@gmail.com" className="text-indigo-400 hover:text-indigo-300 underline underline-offset-2">dev.asifmaner@gmail.com</a>)</span>
           </div>
 
           <div className="flex items-center gap-4">

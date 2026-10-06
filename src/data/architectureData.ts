@@ -3,14 +3,14 @@ import { ArchitectureNode, CodeFile, InterviewCard, Scenario } from '../types';
 export const ARCHITECTURE_NODES: ArchitectureNode[] = [
   {
     id: 'developer',
-    title: 'Software Engineer',
+    title: 'Asif Maner',
     subtitle: 'Payment Switch / CMS Dev',
     category: 'developer',
     x: 12,
     y: 20,
     icon: 'User',
-    badge: 'Human Dev',
-    description: 'Writes business logic, prompts Copilot, and requests incident diagnostics.',
+    badge: 'Developer',
+    description: 'Developer (dev.asifmaner@gmail.com) writing deterministic payment logic, configuring Spring Boot MCP tools, and prompting Copilot.',
   },
   {
     id: 'copilot',
